@@ -5,10 +5,14 @@
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon --watch src --exec \"node -r dotenv/config src/app.js\""
+    "dev": "nodemon --watch src --exec \"node -r dotenv/config src/app.js\"",
+    "test": "jest"
   },
   "engines": {
     "node": ">=24.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +29,8 @@
     "sequelize-cli": "^6.6.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "supertest": "^7.1.4"
   }
 }

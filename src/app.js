@@ -11,8 +11,19 @@ app.use(cors());
 app.use(morgan('dev'));
 app.use(express.json());
 
-// importar rotas futuramente
-// app.use('/api', require('./routes'));
+
+// importar rotas CRUD
+const userRoutes = require('./routes/users');
+const productRoutes = require('./routes/products');
+const productCategoryRoutes = require('./routes/productCategories');
+const situationRoutes = require('./routes/situations');
+const productSituationRoutes = require('./routes/productSituations');
+
+app.use('/users', userRoutes);
+app.use('/products', productRoutes);
+app.use('/product-categories', productCategoryRoutes);
+app.use('/situations', situationRoutes);
+app.use('/product-situations', productSituationRoutes);
 
 // middleware de erro genérico
 app.use((err, req, res, next) => {
