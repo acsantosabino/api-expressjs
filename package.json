@@ -1,0 +1,26 @@
+{
+  "name": "amanda-api",
+  "version": "1.0.0",
+  "description": "API Node.js/Express para o projeto Amanda",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon --watch src --exec \"node -r dotenv/config src/app.js\""
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

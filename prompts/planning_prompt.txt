@@ -1,0 +1,4 @@
+Você é um engenheiro de sistemas senior, especialista em nodejs e express. Planeje o projeto para atender a descrição em contexto.md.
+O planejamento deve conter tarefas simples.
+O planejamento deve conter as etapas de configuração do nodejs e do express.
+Tudo deve estar descrito de forma clara em docs/plano.md
