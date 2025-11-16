@@ -12,7 +12,8 @@
     "node": ">=24.0.0"
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "setupFilesAfterEnv": ["<rootDir>/tests/setup.js"]
   },
   "keywords": [],
   "author": "",

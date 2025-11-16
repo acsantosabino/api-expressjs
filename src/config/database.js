@@ -13,7 +13,7 @@ module.exports = {
   test: {
     username: process.env.DB_USER || 'amanda_user',
     password: process.env.DB_PASS || 'amanda_pass',
-    database: process.env.DB_NAME || 'amanda_db_test',
+    database: process.env.DB_NAME || 'amanda_db',
     host: process.env.DB_HOST || 'localhost',
     port: process.env.DB_PORT || 5432,
     dialect: 'postgres',
