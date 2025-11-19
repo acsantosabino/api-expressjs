@@ -1,6 +1,6 @@
 const request = require('supertest');
 const app = require('../src/app');
-const { Situation } = require('../models');
+const { Situation } = require('../src/models');
 
 describe('Situations API', () => {
   let situationId;

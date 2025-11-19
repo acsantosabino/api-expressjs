@@ -1,6 +1,6 @@
 const request = require('supertest');
 const app = require('../src/app');
-const { ProductSituation } = require('../models');
+const { ProductSituation } = require('../src/models');
 
 describe('Product Situations API', () => {
   it('GET /product-situations deve retornar lista de situações de produtos', async () => {

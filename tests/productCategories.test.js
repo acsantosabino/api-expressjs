@@ -1,6 +1,6 @@
 const request = require('supertest');
 const app = require('../src/app');
-const { ProductCategory } = require('../models');
+const { ProductCategory } = require('../src/models');
 
 describe('Product Categories API', () => {
   it('GET /product-categories deve retornar lista de categorias', async () => {

@@ -1,6 +1,6 @@
 const request = require('supertest');
 const app = require('../src/app');
-const { Product, ProductCategory, ProductSituation } = require('../models');
+const { Product, ProductCategory, ProductSituation } = require('../src/models');
 
 describe('Products API', () => {
   let categoryId;

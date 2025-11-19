@@ -1,6 +1,6 @@
 const request = require('supertest');
 const app = require('../src/app');
-const { User } = require('../models');
+const { User } = require('../src/models');
 
 describe('Users API', () => {
   it('GET /users deve retornar lista de usuários', async () => {

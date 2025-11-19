@@ -1,4 +1,4 @@
-const { sequelize, Situation } = require('../models');
+const { sequelize, Situation } = require('../src/models');
 
 module.exports = async () => {
   try {

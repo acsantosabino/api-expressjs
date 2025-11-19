@@ -1,4 +1,4 @@
-const { Situation } = require('../../models');
+const { Situation } = require('../models');
 
 module.exports = {
   async index(req, res) {
